@@ -1,0 +1,64 @@
+.hotels-bg-container{
+    padding: 20px;
+    height: 100vh;
+}
+
+.hotels-heading{
+    color: #184e77;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.hotels-formEl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 40vw;
+}
+
+.hotels-inputEl{
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.hotels-btn{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin: 4px;
+}
+  
+  .card h3 {
+    color: #184e77;
+    font-family: serif;
+    font-size: 1.2em;
+  }
+  
+  .card a {
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .card p {
+    font-size: 0.9em;
+    color: #555;
+  }
+  

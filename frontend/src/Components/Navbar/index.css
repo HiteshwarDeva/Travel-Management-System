@@ -1,0 +1,43 @@
+.nav-container{
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    flex-grow: 0;
+    max-width: 40vw;
+    background-color: #f4decb;
+    height: 100vh;
+}
+
+.logo-img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.btn-container{
+    padding: 4px;
+    margin: 8px;
+    margin-bottom: auto;
+}
+
+.nav-button{
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+    background-color: transparent;
+    color: black;
+    text-decoration: none;
+}
+
+.spanEl{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+

@@ -1,0 +1,76 @@
+.user-feed-container{
+    height: 100vh;
+    padding: 18px;
+}
+
+.feed-heading{
+    color: #204c59e0;
+    font-family: serif;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.feed-image-input{
+    border-radius: 8px;
+    border: 1px solid #000000;
+    margin: 8px;
+}
+
+.feed-save-btn{
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    font-family: serif;
+    font-weight: 400;
+    width: 120px;
+    background-color: #8e5aefe0;
+    color: #ffff;
+    border: 1px solid #ffff;
+}
+
+.feed-display-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.feed-display-heading{
+    color: #696039;
+    font-family: serif;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.feed-image-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.image-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 8px;
+}
+
+.feed-image{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.feed-delete-btn{
+    background-color: red;
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 500;
+    width: 80px;
+    border: 0px;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 4px;
+}

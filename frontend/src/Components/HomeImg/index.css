@@ -1,0 +1,22 @@
+.list-img-item{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: azure;
+    margin: 8px;
+}
+
+.img-div{
+    height: 120px;
+    width: 120px;
+    padding: 10px;
+}
+
+.home-img{
+    height: 100px;
+    width: 100px;
+    border-radius: 8px;
+}

@@ -1,0 +1,52 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url('./signin-background-image.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+
+.card-container{
+    background-color: transparent;
+    padding: 20px;
+    border: 0px;
+    margin-left: 20px;
+    min-width: 50vw;
+}
+
+.headingEl{
+    color: #a69080;
+    font-family: cursive;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.labelEl{
+    color: #865d36;
+    font-family: Bree serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.inputEl{
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 18px;
+    color: #34a0a4;
+}
+
+.signin-btn{
+    background-color: #865d36;
+    color: #ffffff;
+    font-family: bree serif;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+    margin-bottom: 10px;
+}
+

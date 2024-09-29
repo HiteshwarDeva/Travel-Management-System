@@ -1,0 +1,83 @@
+.trains-bg-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.trains-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.trains-img{
+    height: 200px;
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trains-heading{
+    color: #34a0a4;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.trains-formEl{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 40vw;
+}
+
+.trains-inputEl{
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.trains-labelEl{
+    color: #184e77;
+    font-family: Bree serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.trains-btn{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 0px;
+    cursor: pointer;
+    outline: none;
+}
+
+.trains-container{
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.trains-card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin: 4px;
+}
+
+.train-number{
+    color: rgb(138, 74, 227);
+    font-family: serif;
+    font-weight: 550;
+}
+
+.train-name{
+    color: rgb(76, 168, 249);
+    font-family: serif;
+    font-weight: 550;
+}
